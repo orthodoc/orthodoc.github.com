@@ -1,0 +1,79 @@
+﻿body {
+  background-color: #efefef;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  color: #464646;
+  text-align: center;
+}
+
+body a, body a:link, body a:visited {
+  color: #e6624e;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #000;
+  background-color: #f4f2e4;
+  border-bottom: 1px solid #9a8e51;
+}
+
+header {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+header h2 {
+  margin: 30px 0 40px 0;
+  font-family: 'Convergence', Arial, sans-serif;
+  font-size: 2em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+
+#content{
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.15);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.10), 0 0 30px rgba(0, 0, 0, 0.05) inset;
+  margin: 0 auto;
+  padding: 10px;
+  width: 830px;
+}
+
+#pic {
+  display: inline;
+  float: left;
+  height: 438px;
+  width: 270px;
+  margin-right: 10px;
+}
+
+article#info {
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  height: 438px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+footer {
+  clear: both;
+  font-size: 0.85em;
+  text-align: center;
+  line-height: 0.65em;
+  vertical-align: baseline;
+}
+
+footer span.copyleft {
+  display: inline-block;
+  vertical-align: top;
+  -moz-transform: scaleX(-1); 
+  -o-transform: scaleX(-1); 
+  -webkit-transform: scaleX(-1); 
+  transform: scaleX(-1); 
+  <!--[if lte IE 8]>
+    filter: FlipH; 
+    -ms-filter: "FlipH"; 
+    display: inline-block;
+  <![endif]-->
+}
+
